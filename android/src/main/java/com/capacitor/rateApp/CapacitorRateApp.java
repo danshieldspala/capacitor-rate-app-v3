@@ -20,6 +20,7 @@ import com.google.android.play.core.tasks.Task;
 public class CapacitorRateApp {
 
     public void requestReview(final PluginCall call, final AppCompatActivity activity) {
+        Log.i("RateApp", "Request review requestReview() called");
         final ReviewManager manager = ReviewManagerFactory.create(activity);
 
         Task<ReviewInfo> request = manager.requestReviewFlow();
@@ -36,6 +37,7 @@ public class CapacitorRateApp {
             new OnCompleteListener<ReviewInfo>() {
                 @Override
                 public void onComplete(Task<ReviewInfo> task) {
+                    Log.i("RateApp", "Request review onComplete callback");
                     if (task.isSuccessful()) {
                         // We can get the ReviewInfo object
                         ReviewInfo reviewInfo = task.getResult();
@@ -56,6 +58,7 @@ public class CapacitorRateApp {
                             new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void result) {
+                                    Log.i("RateApp", "Request review onSuccess listener callback");
                                     call.resolve();
                                 }
                             }
