@@ -2,8 +2,8 @@
 # Capacitor plugin for RateApp (capacitor 6 compatible)
 
 #### Pala Interactive - Internal documentation
-#### author: Tom Sebastian
-#### created: 2023-10-23
+#### author: Dan Shields
+#### created: 2024-09-30
 
 > Note: This is a fork of capacitor-rate-app, where the tag `v3.0.0`, for Capacitor 4 compatibility, has been defined as the default branch for our purposes. 
 
