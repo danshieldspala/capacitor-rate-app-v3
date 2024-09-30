@@ -1,5 +1,5 @@
 # `palainteractive/capacitor-rate-app-cap4`
-# Capacitor plugin for RateApp (capacitor 4 compatible)
+# Capacitor plugin for RateApp (capacitor 6 compatible)
 
 #### Pala Interactive - Internal documentation
 #### author: Tom Sebastian
